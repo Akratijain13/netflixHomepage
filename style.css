@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mainn {
+    filter: brightness(30%);
+    width: 100%;
+height: 1000px;
+    display: flex;
+    position: absolute;
+    z-index: -3;
+
+}
+
+.onediv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.twocon {
+    display: flex;
+    width: 250px;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+.con {
+    position: relative;
+    
+}
+
+.netflix {
+    width: 165px;
+    height: 60px;
+}
+
+.netchild {
+    width: 165px;
+    height: 60px;
+    filter: brightness(100%);
+    margin-top: 15px;
+}
+
+.twocon .first {
+    justify-content: space-evenly;
+    color: white;
+    border: 1px grey solid;
+    align-items: center;
+    width: 150px;
+    font-family: sans-serif;
+    height: 30px;
+    margin-right: 30px;
+    display: flex;
+
+}
+
+.sign {
+    width: 90px;
+    height: 35px;
+    background: red;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 {
+    color: rgb(251, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.con2con2 .enjoy {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 750;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+.con2con2 .jointoday {
+    font-family: sans-serif;
+
+    font-size: 20px;
+    padding-bottom: 30px;
+    /* padding-left: 450px; */
+    /* display: flex; */
+    text-align: center;
+}
+
+.con2con2 .ready {
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.mix2div {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.emailaddress {
+    font-family: sans-serif;
+    color: rgb(207, 205, 205);
+    border: solid 1px grey;
+    text-align: start;
+    width: 350px;
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 10px;
+
+}
+
+.mix2div .getstarted {
+    display: flex;
+    background-color: red;
+    width: 190px;
+    height: 60px;
+    font-size: 25px;
+    color: rgb(251, 233, 233);
+    font-family: sans-serif;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mix2div .getstarted .arrow {
+    padding-top: 5px;
+}
+.con3{
+    width: 100%;
+    height: 580px;
+ margin-top:200px ;
+    background: #010101;
+    border-top:#111111 10px solid ;
+   display: flex;
+   color: white;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.con3 .threeinone .enjoyonyour{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-bottom: 40px;
+    
+}
+.con3 .threeinone .watch{
+font-size:25px;
+    font-family: sans-serif;
+}
+.con3 .threeinone .apple{
+    font-size:25px;
+        font-family: sans-serif;
+    }
+    .tv img{
+        width: 100%;
+        height: 100%;
+    }
+    .tv{
+        width: 500px;
+        height: 400px;
+    }
+.con4{
+    width: 100%;
+    height: 580px;
+    background: #010101;
+    border-top:#111111 10px solid ;
+    color: white;
+   justify-content: space-around;
+   align-items: center;
+   display: flex;
+}
+.con4 .fourinone .download{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.con4 .fourinone .offline{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.con4 .fourinone .save{
+    font-size:25px;
+    font-family: sans-serif;
+}
+.con4 .fourinone .something{
+    font-size:25px;
+    font-family: sans-serif;
+}
+
+.con5{
+    width: 100%;
+    height: 580px;
+
+    background: #010101;
+    border-top:#111111 10px solid ;
+    border-bottom:#111111 10px solid ;
+    color: white;
+   justify-content: space-around;
+   align-items: center;
+   display: flex;
+}
+.con5 .threeone .everywhere{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.con5 .threeone .stream{
+    font-size:25px;
+    font-family: sans-serif;
+}
+.con5 .threeone .phone{
+    font-size:25px;
+    font-family: sans-serif;
+}
+.con6{
+    width: 100%;
+    height: 400px;
+    background: #010101;
+    border-bottom:#111111 10px solid ;
+   
+    color: rgb(253, 253, 253);
+    padding-top: 60px;
+
+}
+.list1{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  
+    gap: 20px;
+
+}
+/* .con66{
+    width: 100%;
+    height: 100%;
+} */
+.ques{
+    padding-left: 130px;
+    padding-bottom: 30px;
+}
+.maincon{
+    display: flex;
+    justify-content: space-around;
+}
+.aaaa{
+    padding-left: 100px;
+}
+.netflixindia{
+    padding-left: 133px;
+}
+
+
+
+
